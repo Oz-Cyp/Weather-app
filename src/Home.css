@@ -1,0 +1,20 @@
+.home-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .input-location{
+        transform: translate(0,-15rem);
+        padding: 0.2rem;
+    
+    }
+}
+
+.img-background{
+    object-fit: cover;
+    z-index: -1;
+  }
+

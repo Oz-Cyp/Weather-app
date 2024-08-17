@@ -1,0 +1,30 @@
+p {
+  font-size: 1.5rem;
+}
+h1 {
+  font-size: 2rem !important;
+}
+
+.img-background {
+  height: 100%;
+  width: 100%;
+  object-fit: cover ;
+  z-index: -1;
+  opacity: 1;
+  transition:  0.5s ease, opacity 0.5s ease;
+  filter: brightness(50%)
+}
+
+.transition {
+  opacity: 0.2;
+}
+
+
+.input-location{
+  width: 10rem;
+}
+
+.icons{
+  color: white;
+
+}
